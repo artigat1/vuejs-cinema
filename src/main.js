@@ -12,7 +12,6 @@ createApp({
       } else {
         this.genres = this.genres.filter(genre => genre !== title);
       }
-      console.log(this.genres);
     }
   },
   data: () => ({
